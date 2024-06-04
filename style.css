@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 1500px;
+  font-family: 'Camphor Pro VF', 'Camphor Pro', sans-serif;
+}
+.nav-bar {
+  width: 100%;
+  height: 56px;
+  background-color: white;
+}
+
+.nav-bar .logo img {
+  width: 32px;
+  padding: 10px;
+  padding-left: 60px;
+}
+
+.nav-bar .left-nav-text {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 0;
+  left: 150px;
+}
+
+.nav-bar .left-nav-text .flex-item {
+  padding-right: 50px;
+  color: black
+}
+
+.nav-bar .right-nav-text {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.nav-bar .right-nav-text .flex-item,
+.nav-bar .left-nav-text .flex-item {
+  padding-right: 50px;
+  font-size: 16px;
+}
+
+.slider-images {
+  width: 1519.2px;
+  height: 474px;
+  margin-bottom: 30px;
+}
+
+.slider-images .image img {
+  width: 100%;
+  height: 474px;
+}
+
+.advert {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.advert .img-3 {
+  margin-left: 50px;
+}
+
+.advert .img img {
+  width: 1260px;
+  height: 180px;
+  margin-bottom: 25px;
+}
+
+.advert .img h1 {
+  margin: 0;
+  position: relative;
+  top: 80px;
+  left: 100px;
+}
+
+.advert .img p {
+    margin: 0;
+    position: relative;
+    top: 90px;
+    left: 100px;
+}
+
+.advert .img button {
+    position: relative;
+    top: -85px;
+    left: 100px;
+    
+} 
+
+.product-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 15px;
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.product-card .card {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  width: 303px;
+  height: 294px;
+}
+
+
+
+.product-card .card img {
+ position: relative;
+ left: 103px;
+ width: 150px;
+}
+
+.product-card .card button {
+  position: absolute;
+  top: 12px;
+}
+
+.product-card .card h4 {
+  width: 210px;
+  margin: 0;
+  margin-left: 15px;
+  margin-top: 21px;
+}
+
+.product-card .card  button {
+  margin-top: 51px;
+  margin-left: 15px;
+}
+.product-card .card .price-info p {
+    margin: 0;
+    position: relative;
+    bottom: 19px;
+    left: 15px;
+}
+
+.product-card .card p .from {
+  font-weight: bold;
+}
+
+.product-card .card p .product-price {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.product-card .card p del {
+  color: grey;
+  opacity: 0.9;
+  font-weight: 100;
+  font-size: 15px;
+}
+
+.product-card .card button {
+    border-radius: 6px;
+    border: 1px solid orange;
+    background: rgb(255 105 0 / 10%);
+    width: 65px;
+}
+
+.product-card .card img {
+  position: relative;
+  left: 135px;
+  width: 150px;
+  top: 52px;
+}
+
+footer .container {
+  width: 1500px;
+  height: 740.4px;
+  background-color: black;
+}
